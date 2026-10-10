@@ -1,5 +1,8 @@
 # retrieval-system
 
+> Shared to learn from and fork on GitHub. All rights reserved. No license is granted to reuse, modify or redistribute outside GitHub without permission.
+
+
 A personal knowledge vault plus a Claude Code setup that reads from it, writes to it, and routes work to specialist agents. Clone it, point it at your own notes, and every Claude Code session on your machine starts with the same memory.
 
 It is four things wired together:
