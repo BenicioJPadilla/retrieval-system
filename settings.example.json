@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "nohup \"$HOME/Projects/retrieval-system/scripts/auto-vault-sync.sh\" >/dev/null 2>&1 &"
+          }
+        ]
+      }
+    ]
+  }
+}

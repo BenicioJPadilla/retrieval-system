@@ -1,0 +1,13 @@
+# graphify's extraction cache (large, rebuildable). The rest of graphify-out/ is
+# committed on purpose so the graph travels with the vault.
+graphify-out/cache/
+.env
+.env.*
+*.local.json
+.DS_Store
+node_modules/
+!scripts/node_modules/
+
+# Installed by `graphify install --platform claude` (lands here because ~/.claude/skills
+# is symlinked to skills/). Vendor-managed; reinstall instead of committing.
+skills/graphify/
